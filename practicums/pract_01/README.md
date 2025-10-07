@@ -28,7 +28,7 @@ v <- c(10, 32, 47, 21)
 sort(x) # 10 21 32 47
 ```
 
-  ** logical expresions fucntions
+  * logical expresions fucntions
 ```
 ifelse(<logical expression>, <'yes' case result>, <'no' case result>)
 ```
