@@ -31,7 +31,7 @@ sort(x) # 10 21 32 47
 ```
 
   + logical expresions functions
-   +  ifelse
+     * ifelse
 ```
 ifelse(<logical expression>, <'yes' case result>, <'no' case result>)
 ```
