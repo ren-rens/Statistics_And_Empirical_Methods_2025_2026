@@ -28,7 +28,7 @@ v <- c(10, 32, 47, 21)
 sort(x) # 10 21 32 47
 ```
 
-  * logical expresions fucntions
+  * logical expresions functions
 ```
 ifelse(<logical expression>, <'yes' case result>, <'no' case result>)
 ```
@@ -52,7 +52,7 @@ cumsum(v) # returns a vector of all sums between all numbers until the number of
 ```
 
 * Sequence generation
-  **   rep: times/each
+  +   rep: times/each
   ```
   rep(5, times=8) # 5 5 5 5 5 5 5 5
   rep(c(2, 6), times=5) # repeates the vector: 2 6 2 6 2 6 2 6 2 6
