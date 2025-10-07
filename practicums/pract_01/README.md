@@ -36,10 +36,11 @@ sort(x) # 10 21 32 47
 ifelse(<logical expression>, <'yes' case result>, <'no' case result>)
 ```
 
+      * any
 ```
 any(logical expr) # returns TRUE if there is AR LEAST ONE TRUE value in the logical expr
 ```
-
+      * all
 ```
 all(<logical expr>) # returns TRUE if ALL values are TRUE in the logical expr
 ```
