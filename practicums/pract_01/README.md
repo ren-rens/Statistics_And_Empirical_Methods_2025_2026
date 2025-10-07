@@ -18,17 +18,20 @@ v[v > 3] # 4 5
 ```
 
 * functions
+   + length
 ```
 v <- c(1, 2, 3, 4, 5)
 length(v) # returns the length of a vector (5)
 ```
 
+ + sort
 ```
 v <- c(10, 32, 47, 21)
 sort(x) # 10 21 32 47
 ```
 
-  * logical expresions functions
+  + logical expresions functions
+   +  ifelse
 ```
 ifelse(<logical expression>, <'yes' case result>, <'no' case result>)
 ```
@@ -59,13 +62,13 @@ cumsum(v) # returns a vector of all sums between all numbers until the number of
   rep(c(2, 6), each=5) # repeats the individual numbers of the vector: 2 2 2 2 2 6 6 6 6 6
   ```
   
-  ** seq
+  + seq
   ```
   seq(from=1, to=10, by = 2) # creates a sequence of numbers: 1 3 5 7 9
   seq(from=0, to=1, length.out=4) # 0.000 0.3333 0.666667 1.000
   ```
   
-  ** :
+  + :
   ```
   10:16 # 10 11 12 13 14 15 16
   ```
