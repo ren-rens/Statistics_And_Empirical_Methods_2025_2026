@@ -5,6 +5,7 @@ f <- function(x) {
 
 curve(f(x), from = 0.8, to = 4)
 
+# methode 1
 a <- 0.8
 b <- 4
 n <- 10^7 # points count
@@ -16,3 +17,10 @@ y <- runif(n, 0, f(a))
 
 # the interger is P(0.8 < x < 4), X ~ N(0,1)
 pnorm(4) - pnorm(0.8) # real value of the integer
+
+# methode 2
+a <- 0.8
+b <- 4
+n <- 10^7 # points count
+x <- runif(n, a, b)
+sum(f(x)) * (b - a) / n
