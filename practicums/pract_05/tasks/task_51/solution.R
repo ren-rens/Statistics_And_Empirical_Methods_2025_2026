@@ -1,4 +1,4 @@
-# 49
+# 51
 library(MASS)
 attach(survey)
 
